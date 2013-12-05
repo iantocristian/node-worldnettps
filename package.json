@@ -1,0 +1,43 @@
+{
+  "name": "worldnettps",
+  "description": "WorldNet TPS XML payment gateway node.js interface",
+  "keywords": [
+    "WorldNet",
+    "WorldNetTPS",
+    "WorldNet TPS",
+    "payment gateway",
+    "XML gateway"
+  ],
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Cristian Ianto"
+  },
+  "contributors": [
+    "Cristian Ianto"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/iantocristian/node-worldnettps.git"
+  },
+  "main": "lib/worldnettps",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "lib/*"
+  ],
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "xml2js": "~0.4.0",
+    "shasum": "~1.0.0",
+    "request": "~2.27.0",
+    "moment": "~2.4.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "jshint": "*"
+  },
+  "engine": {
+      "node": ">=0.6"
+  }
+}
